@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<meta-runner name="Generate GitHub Release Notes">
-  <description>Generate GitHub Release Notes</description>
+<meta-runner name="Generate BitBucket Release Notes">
+  <description>Generate BitBucket Release Notes</description>
   <settings>
     <parameters>
-      <param name="mr.GenerateGitReleaseNotes.Repository" value="" spec="text description='The GitHub repository to generate release notes for, e.g. maartenba/repo1.' display='normal' label='Repository:' validationMode='any'" />
+      <param name="mr.GenerateGitReleaseNotes.Repository" value="" spec="text description='The BitBucket repository to generate release notes for, e.g. maartenba/repo1.' display='normal' label='Repository:' validationMode='any'" />
       <param name="mr.GenerateGitReleaseNotes.ConsumerKey" value="" spec="text description='BitBuckets Consumer Key used for Oauth authentication' display='normal' label='BitBucket Consumer Key:' validationMode='any'" />
       <param name="mr.GenerateGitReleaseNotes.ConsumerSecretKey" value="" spec="text description='BitBuckets Consumer Secret Key used for Oauth authentication' display='normal' label='BitBucket Consumer Secret:' validationMode='any'" />
       <param name="mr.GenerateGitReleaseNotes.Username" value="" spec="text description='Issue tracker username.' display='normal' label='Username:' validationMode='any'" />
